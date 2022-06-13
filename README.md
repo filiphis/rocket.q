@@ -9,7 +9,7 @@ Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.
 ## O que foi utilizado ?
 
 - HTML
-- CSS
+- CSS (Grid, Flexbox)
 - JavaScript
 
 ## O que aprendi ?

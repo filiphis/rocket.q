@@ -12,44 +12,48 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/global.css">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="assets/css/home.css">
 
 
   <title>Criar Sala - Rcoket.Q</title>
 </head>
 
 <body>
-  <header class="rocketq__header">
-    <img class="rocketq__logo" src="assets/images/logo.svg" alt="Lupa e rocket.q">
-  </header>
+  <div class="content">
+    <header class="rocketq__header">
+      <img class="rocketq__logo" src="assets/images/logo.svg" alt="Lupa e rocket.q">
+    </header>
 
-  <main class="rocketq__container">
-    <section class="rocketq__enterRoom">
-      <h2 class="rocketq__secondTitle enterRoom__title">Entre como participante</h2>
-      <form action="">
-        <label for="room-code" class="sr-only ">Código da sala</label>
-        <input class="enterRoom__input" id="room-code" type="number" placeholder="Código da sala">
-        <button class="rocketq__button enterRoom__button">
-          <img src="assets/images/login.svg" alt="Icone de uma porta com sinal de entrar">
-          Entrar na sala
-        </button>
-      </form>
-    </section>
+    <div class="rocketq__ilustration"></div>
 
-    <div class="rocketq__separator">
-      <span class="separator__line"></span>
-      <span class="separator__text">ou</span>
-      <span class="separator__line"></span>
-    </div>
+    <main class="rocketq__container">
+      <section class="rocketq__enterRoom">
+        <form action="" class="enterRoom__form">
+          <h2 class="rocketq__title enterRoom__title">Entre como participante</h2>
+          <label for="room-code" class="sr-only ">Código da sala</label>
+          <input class="enterRoom__input" id="room-code" type="number" placeholder="Código da sala">
+          <button class="rocketq__button enterRoom__button">
+            <img src="assets/images/login.svg" alt="Icone de uma porta com sinal de entrar">
+            Entrar na sala
+          </button>
+        </form>
+      </section>
 
-    <section class="rocketq__createRoom">
-      <h2 class="rocketq__secondTitle createRoom__title">Crie sua própriasala, de forma facil</h2>
-      <a class="rocketq__button createRoom__button" href="#">
-        <img src="assets/images/users.svg" alt="Icone de dois usuarios">
-        Criar sala
-      </a>
-    </section>
-  </main>
+      <div class="rocketq__separator">
+        <span class="separator__line"></span>
+        <span class="separator__text">ou</span>
+        <span class="separator__line"></span>
+      </div>
+
+      <section class="rocketq__createRoom">
+        <h2 class="rocketq__title createRoom__title">Crie sua própria sala, de forma facil</h2>
+        <a class="rocketq__button createRoom__button" href="#">
+          <img src="assets/images/users.svg" alt="Icone de dois usuarios">
+          Criar sala
+        </a>
+      </section>
+    </main>
+  </div>
 
 </body>
 

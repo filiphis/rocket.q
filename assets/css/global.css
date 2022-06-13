@@ -3,6 +3,7 @@
   padding: 0;
   border: none;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
@@ -28,9 +29,43 @@ body {
   background-color: var(--background);
 }
 
-body, button, textarea, input {
-  font-size: clamp(1.4rem, 1.6rem, 2vw);
+body, textarea, input {
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
   font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, .rocketq__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  color: var(--black);
+  margin-bottom: 2.4rem;
+}
+
+input, button, .rocketq__button {
+  border-radius: 0.8rem;
+  line-height: 0;
+}
+
+button, .rocketq__button, .separator__text{
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+button, .rocketq__button{
+  height: 5rem;
+  cursor: pointer;
+  transition: filter .25s;
+}
+
+button:hover, .rocketq__button:hover {
+  filter: brightness(1.2);
 }
 
 
