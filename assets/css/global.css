@@ -18,6 +18,7 @@ html {
   --blue: #3485FF;
   --background: #FBFCFF;
   --overlay: #040911;
+  --overlay-opacity: rgba(4, 9, 17, 0.8);
   --icons-details: #A5B0C1;
 
   --grey-dark: #4D5E77;
@@ -32,6 +33,7 @@ html {
 body {
   display: flex;
   height: 100vh;
+  /* flex-direction: column; */
   background-color: var(--background);
 }
 
@@ -76,7 +78,7 @@ button, .rocketq__button{
 }
 
 button:hover, .rocketq__button:hover, a:hover {
-  filter: brightness(1.3);
+  filter: opacity(0.7);
 }
 
 

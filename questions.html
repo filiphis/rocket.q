@@ -13,6 +13,8 @@
 
   <link rel="stylesheet" href="assets/css/global.css">
   <link rel="stylesheet" href="assets/css/questions.css">
+  <link rel="stylesheet" href="assets/css/modalDelete.css">
+
 
 
   <title>Sala - Rcoket.Q</title>
@@ -113,6 +115,22 @@
 
   </div>
 
+  <!-- modalDelete__close  -->
+  <div class="modalDelete__wrapper">
+    <div class="modalDelete__content">
+      <h2 class="modalDelete__title">Exluir pergunta</h2>
+      <p class="modalDelete__warning">Tem certeza que você deseja excluir esta pergunta?</p>
+
+      <form class="modalDelete__form">
+        <label class="sr-only" for="password">Digite sua senha</label>
+        <input class="modalDelete__input" id="password" type="password" placeholder="Digite sua senha">
+        <div class="modalDelete__buttons">
+          <a class="rocketq__button modalDelete__cancelBtn modalDelete__button" href="#">Cancelar</a><button
+            class="modalDelete__deleteBtn modalDelete__button">Excluir</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>

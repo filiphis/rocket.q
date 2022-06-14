@@ -116,6 +116,7 @@
 .question__text {
   margin-left: 1.6rem;
   color: var(--black);
+  word-break: break-word;
 }
 
 .questions__actions {
