@@ -99,6 +99,14 @@
   border-radius: 0rem .8rem .8rem .8rem;
 }
 
+.questions__item--read {
+  background-color: var(--grey-read);
+}
+.questions__item--read img {
+  filter: opacity(20%);
+
+}
+
 .questions__question {
   display: flex;
   align-items: center;
