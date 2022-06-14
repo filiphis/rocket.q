@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+ul, li {
+  list-style: none;
+}
+
 html {
   --black: #0D114F;
   --white: #FAFAFA;
@@ -25,8 +29,14 @@ html {
 }
 
 body {
+  display: flex;
   height: 100vh;
   background-color: var(--background);
+}
+
+.rocketq__header {
+  width: 80%;
+  margin: 3.5rem auto;
 }
 
 body, textarea, input {
