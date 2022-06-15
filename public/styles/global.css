@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html {
+  --black: #0D114F;
+  --white: #FAFAFA;
+  --red: #E83F5B;
+  --light-blue: #E0ECFF;
+  --blue: #3485FF;
+  --background: #FBFCFF;
+  --overlay: #040911;
+  --overlay-opacity: rgba(4, 9, 17, 0.8);
+  --icons-details: #A5B0C1;
+
+  --grey-dark: #4D5E77;
+  --grey-read: #4d5e7726 ;
+  --grey-blue: #A1B2CD;
+  --grey-medium: #D3D9E2;
+  --grey-light: #E5EAF1;
+
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  /* flex-direction: column; */
+  background-color: var(--background);
+}
+
+.rocketq__header {
+  width: 80%;
+  margin: 3.5rem auto;
+}
+
+body, textarea, input {
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, .rocketq__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  color: var(--black);
+  margin-bottom: 2.4rem;
+}
+
+input, button, .rocketq__button {
+  border-radius: 0.8rem;
+  line-height: 0;
+}
+
+button, .rocketq__button, .separator__text{
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+button, .rocketq__button{
+  height: 5rem;
+  cursor: pointer;
+  transition: filter .25s;
+}
+
+button:hover, .rocketq__button:hover, a:hover {
+  filter: opacity(0.7);
+}
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0px, 0px, 0px, 0px);
+  white-space: nowrap;
+  border-right: 0;
+}

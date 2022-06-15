@@ -5,12 +5,10 @@ const routes = require("./routes");
 
 const server = express();
 
-server.use(routes);
-
+server.use(express.static("public"));
 server.set("view engine", "ejs");
 server.set("views", path.join(__dirname, "views"));
 
-// server.get("/", (req, res) => res.render("index"));
+server.use(routes);
 
-console.log();
 server.listen(3000, () => console.log("Rodando na porta 3000"));

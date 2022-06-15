@@ -1,0 +1,147 @@
+.rocketq__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.4rem;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons__copyRoomCode {
+  border: 0.2rem solid var(--blue);
+  display: flex;
+  align-items: center;
+  padding: 1.1rem 1.6rem;
+  margin-right: 0.8rem;
+}
+
+.copyRoomCode__image {
+  margin-left: 1.0rem;
+}
+
+.buttons__createRoom {
+  padding: 1.1rem 3.2rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.createRoom__image {
+  margin-right: 1.0rem;
+}
+
+.roomMainContent {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.askQuestion {
+  margin-bottom: 1.6rem;
+}
+
+.askQuestion__form {
+  border: 0.2rem solid var(--grey-blue);
+  padding: 1.2rem;
+  border-radius: 0rem .8rem .8rem .8rem;
+}
+
+.askQuestion__input {
+  width: 100%;
+  padding-bottom: 4rem;
+  color: var(--grey-blue);
+  font-weight: 400;
+  outline: none;
+}
+
+.askQuestion__buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.askQuestion__message {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  color: var(--grey-blue);
+  font-size: 1.4rem;
+}
+
+.message__image {
+  margin-right: 0.6rem;
+}
+
+.askQuestion__button {
+  background-color: var(--blue);
+
+  color: var(--background);
+  height: 4.0rem;
+  padding: 1.3rem 2.4rem;
+}
+
+.questions {
+
+}
+
+.questions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.questions__item {
+  padding: 2.4rem;
+  background-color: var(--light-blue);
+  border-radius: 0rem .8rem .8rem .8rem;
+}
+
+.questions__item--read {
+  background-color: var(--grey-read);
+}
+.questions__item--read img {
+  filter: opacity(20%);
+
+}
+
+.questions__question {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.question__text {
+  margin-left: 1.6rem;
+  color: var(--black);
+  word-break: break-word;
+}
+
+.questions__actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2.4rem;
+  margin-right: 1.5rem;
+}
+
+.questions__check,
+.questions__trash {
+  display: flex;
+  align-items: center;
+  /* gap: 0.8rem; */
+}
+
+.actions__wrapper {
+  display: flex;
+  align-items: center;
+}
+.actions__icon {
+  margin-right: 0.6rem;
+}
+
+.actions__text {
+  color: var(--grey-dark);
+}

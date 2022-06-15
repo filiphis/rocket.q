@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/questions.css">
+  <link rel="stylesheet" href="styles/modalDelete.css">
+
+
+
+  <title>Sala - Rcoket.Q</title>
+</head>
+
+<body>
+
+  <div class="content">
+    <header class="rocketq__header">
+      <a href="home.html"><img class="rocketq__logo" src="images/logo.svg" alt="Lupa e rocket.q"></a>
+
+      <div class="header__buttons">
+        <a class="buttons__copyRoomCode rocketq__button" href="#">
+          #323243
+          <img class="copyRoomCode__image" src="images/copy.svg" alt="Copiar codigo">
+        </a>
+        <button class="buttons__createRoom">
+          <img class="createRoom__image" src="images/users-white.svg" alt="Ilustração dois usuarios">
+          Criar sala
+        </button>
+      </div>
+    </header>
+
+    <main class="roomMainContent">
+      <section class="askQuestion">
+        <h2 class="askQuestion__title">Faça sua pergunta</h2>
+        <form class="askQuestion__form" action="#">
+          <div>
+            <label class="askQuestion__label sr-only" for="yourQuestion">O que você quer perguntar?</label>
+            <input placeholder="O que você quer perguntar?" class="askQuestion__input" type="text">
+          </div>
+          <div class="askQuestion__buttonWrapper">
+            <p class="askQuestion__message">
+              <img class="message__image" src="images/lock_black.svg" alt="Cadeado">
+              <span>Esta pergunta é anônima</span>
+            </p>
+            <button class="askQuestion__button">Enviar</button>
+          </div>
+
+        </form>
+      </section>
+
+      <section class="questions">
+        <h2 class="sr-only">Perguntas enviadas</h2>
+        <ul class="questions__list">
+          <li class="questions__item">
+            <div class="questions__question">
+              <img src="images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image">
+              <p class="question__text">Qual a diferença entre const, var e let no Javascript?</p>
+            </div>
+            <div class="questions__actions">
+              <a href="#" class="questions__check actions__wrapper">
+                <img class="actions__icon" src="images/check.svg" alt="">
+                <span class="actions__text">Marcar como lida</span>
+              </a>
+              <a href="#" class="questions__trash">
+                <img class="actions__icon" src="images/trash.svg" alt="">
+                <span class="actions__text">Excluir</span>
+              </a>
+            </div>
+          </li>
+
+          <li class="questions__item">
+            <div class="questions__question">
+              <img src="images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image">
+              <p class="question__text">O que é Typescript?</p>
+            </div>
+            <div class="questions__actions">
+              <a href="#" class="questions__check actions__wrapper">
+                <img class="actions__icon" src="images/check.svg" alt="">
+                <span class="actions__text">Marcar como lida</span>
+              </a>
+              <a href="#" class="questions__trash">
+                <img class="actions__icon" src="images/trash.svg" alt="">
+                <span class="actions__text">Excluir</span>
+              </a>
+            </div>
+          </li>
+
+          <li class="questions__item questions__item--read">
+            <div class="questions__question">
+              <img src="images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image question__image--read">
+              <p class="question__text">O que é Javascript?</p>
+            </div>
+            <div class="questions__actions">
+              <a href="#" class="questions__check actions__wrapper">
+                <img class="actions__icon" src="images/check.svg" alt="">
+                <span class="actions__text">Pergunta lida</span>
+              </a>
+            </div>
+          </li>
+
+
+        </ul>
+      </section>
+    </main>
+
+  </div>
+
+  <!-- modalDelete__close  -->
+  <div class="modalDelete__wrapper modalDelete__open">
+    <div class="modalDelete__content">
+      <h2 class="modalDelete__title">Exluir pergunta</h2>
+      <p class="modalDelete__warning">Tem certeza que você deseja excluir esta pergunta?</p>
+
+      <form class="modalDelete__form">
+        <label class="sr-only" for="password">Digite sua senha</label>
+        <input class="modalDelete__input" id="password" type="password" placeholder="Digite sua senha">
+        <div class="modalDelete__buttons">
+          <a class="rocketq__button modalDelete__cancelBtn modalDelete__button" href="#">Cancelar</a><button
+            class="modalDelete__deleteBtn modalDelete__button">Excluir</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
