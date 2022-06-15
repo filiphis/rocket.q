@@ -6,12 +6,19 @@
   height: 100vh;
   background-color: var(--overlay-opacity);
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
   justify-content: center;
 
-  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
+/* Mostra o modal */
+.modalDelete__wrapper.actve{
+  visibility: visible;
+  opacity: 1;
+}
 
 
 .modalDelete__content {
@@ -26,16 +33,13 @@
 }
 
 /* Efeito quando aparecer */
-.modalDelete__wrapper.modalDelete__open {
-  display: flex;
-  
-}
-.modalDelete__wrapper.modalDelete__open .modalDelete__content{
+
+/* .modalDelete__wrapper.modalDelete__open .modalDelete__content{
   transition: all .3s;
   position: relative;
   transform: translateY(-50%);
   top: 50%;
-}
+} */
 /* Efeito quando aparecer FIM */
 
 
