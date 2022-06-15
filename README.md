@@ -6,6 +6,8 @@ Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.
 
 ## Descrição
 
+Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser utilizado, por exemplo, para responder e organizar questões feitas em uma live. Projeto foi desenvolvido utilizando o conteudo da Next Level Week 7 da Rocketseat.
+
 ## O que foi utilizado ?
 
 - HTML
