@@ -1,7 +1,7 @@
 {
   "name": "rocket.q",
   "version": "1.0.0",
-  "description": "Criei salas e responda as perguntas que os visitantes fizerem. Este projeto foi desenvolvido utilizando o conteudo da Next Level Week 7 da Rocketseat.",
+  "description": "Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser utilizado, por exemplo, para responder e organizar questões feitas em uma live. Projeto foi desenvolvido utilizando o conteudo da Next Level Week 7 da Rocketseat.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
