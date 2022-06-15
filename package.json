@@ -1,7 +1,7 @@
 {
   "name": "rocket.q",
   "version": "1.0.0",
-  "description": "Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.",
+  "description": "Criei salas e responda as perguntas que os visitantes fizerem. Este projeto foi desenvolvido utilizando o conteudo da Next Level Week 7 da Rocketseat.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/filiphis/rocket.q.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luiz Felipe da Silveira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/filiphis/rocket.q/issues"
