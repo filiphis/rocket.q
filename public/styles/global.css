@@ -71,10 +71,19 @@ button, .rocketq__button, .separator__text{
   font-weight: 500;
 }
 
+.buttons__copyRoomCode {
+  color: var(--blue);
+}
+
 button, .rocketq__button{
   height: 5rem;
   cursor: pointer;
   transition: filter .25s;
+}
+
+button, .rocketq__button, a {
+  transition: filter .2s ;
+  will-change: filter;
 }
 
 button:hover, .rocketq__button:hover, a:hover {

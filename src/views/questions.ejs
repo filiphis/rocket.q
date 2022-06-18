@@ -28,7 +28,7 @@
 
       <div class="header__buttons">
         <a class="buttons__copyRoomCode rocketq__button" href="#">
-          #323243
+          <span data-roomid="323243">#323243</span>
           <img class="copyRoomCode__image" src="images/copy.svg" alt="Copiar codigo">
         </a>
         <button class="buttons__createRoom">
@@ -60,7 +60,7 @@
       <section class="questions">
         <h2 class="sr-only">Perguntas enviadas</h2>
         <ul class="questions__list">
-          <li class="questions__item">
+          <li class="questions__item" id="questionid" data-questionid="2">
             <div class="questions__question">
               <img src="images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image">
               <p class="question__text">Qual a diferença entre const, var e let no Javascript?</p>
@@ -70,14 +70,14 @@
                 <img class="actions__icon" src="images/check.svg" alt="">
                 <span class="actions__text">Marcar como lida</span>
               </a>
-              <a href="#" class="questions__trash">
+              <a href="#" class="questions__trash questions__buttonDelete">
                 <img class="actions__icon" src="images/trash.svg" alt="">
                 <span class="actions__text">Excluir</span>
               </a>
             </div>
           </li>
 
-          <li class="questions__item">
+          <li class="questions__item" data-questionid="3">
             <div class="questions__question">
               <img src="images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image">
               <p class="question__text">O que é Typescript?</p>
@@ -87,20 +87,21 @@
                 <img class="actions__icon" src="images/check.svg" alt="">
                 <span class="actions__text">Marcar como lida</span>
               </a>
-              <a href="#" class="questions__trash">
+              <a href="#" class="questions__trash questions__buttonDelete">
                 <img class="actions__icon" src="images/trash.svg" alt="">
                 <span class="actions__text">Excluir</span>
               </a>
             </div>
           </li>
 
-          <li class="questions__item questions__item--read">
+          <li class="questions__item questions__item--read" data-questionid="1">
             <div class="questions__question">
               <img src="images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image question__image--read">
               <p class="question__text">O que é Javascript?</p>
             </div>
             <div class="questions__actions">
-              <a href="#" class="questions__check actions__wrapper">
+              <!-- <a href="#" class="questions__check actions__wrapper"> -->
+              <a href="#" class="actions__wrapper">
                 <img class="actions__icon" src="images/check.svg" alt="">
                 <span class="actions__text">Pergunta lida</span>
               </a>
@@ -120,7 +121,7 @@
       <h2 class="modalDelete__title">Exluir pergunta</h2>
       <p class="modalDelete__warning">Tem certeza que você deseja excluir esta pergunta?</p>
 
-      <form class="modalDelete__form">
+      <form data-modalForm class="modalDelete__form">
         <label class="sr-only" for="password">Digite sua senha</label>
         <input class="modalDelete__input" id="password" type="password" placeholder="Digite sua senha">
         <div class="modalDelete__buttons">
@@ -130,6 +131,8 @@
       </form>
     </div>
   </div>
+
+  <script src="scripts/main.js" defer type="module"></script>
 </body>
 
 </html>
