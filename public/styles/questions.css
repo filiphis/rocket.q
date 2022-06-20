@@ -55,6 +55,7 @@
   color: var(--grey-blue);
   font-weight: 400;
   outline: none;
+  border: 1px solid transparent;
 }
 
 .askQuestion__buttonWrapper {
@@ -91,6 +92,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  margin-bottom: 2vh;
 }
 
 .questions__item {

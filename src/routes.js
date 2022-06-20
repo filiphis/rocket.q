@@ -11,10 +11,9 @@ routes.get("/create-room", (req, res) => res.render("create-room"));
 routes.post("/questions/:roomid/:messageid/:action", (req, res) =>
   questionsController.index(req, res)
 );
+routes.post("/questions/:roomid", questionsController.create);
 
 routes.post("/room", (req, res) => roomController.index(req, res));
-routes.get("/room/:roomid", (req, res) =>
-  res.render("room", { roomid: req.params.roomid })
-);
+routes.get("/room/:roomid", roomController.open);
 
 module.exports = routes;

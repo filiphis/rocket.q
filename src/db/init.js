@@ -11,8 +11,9 @@ const initDB = {
 
     await db.exec(`CREATE TABLE questions (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      titulo TEXT,
-      isRead BOOLEAN
+      questionText TEXT,
+      isRead BOOLEAN,
+      roomid INT
     )`);
 
     await db.close();

@@ -40,10 +40,11 @@
     <main class="roomMainContent">
       <section class="askQuestion">
         <h2 class="askQuestion__title">Faça sua pergunta</h2>
-        <form class="askQuestion__form" action="#">
+        <form class="askQuestion__form" action="/questions/<%= parseInt(roomid) %>" method="POST">
           <div>
             <label class="askQuestion__label sr-only" for="yourQuestion">O que você quer perguntar?</label>
-            <input placeholder="O que você quer perguntar?" class="askQuestion__input" type="text">
+            <input name="questionText" placeholder="O que você quer perguntar?" class="askQuestion__input" type="text"
+              required minlength="10">
           </div>
           <div class="askQuestion__buttonWrapper">
             <p class="askQuestion__message">
@@ -59,10 +60,11 @@
       <section class="questions">
         <h2 class="sr-only">Perguntas enviadas</h2>
         <ul class="questions__list">
-          <li class="questions__item" id="questionid" data-questionid="2">
+          <% questions.forEach(question => { %>
+          <li class="questions__item" id="questionid" data-questionid="<%= question.id %>">
             <div class="questions__question">
               <img src="/images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image">
-              <p class="question__text">Qual a diferença entre const, var e let no Javascript?</p>
+              <p class="question__text"><%= question.questionText %></p>
             </div>
             <div class="questions__actions">
               <a href="#" class="questions__check actions__wrapper">
@@ -75,38 +77,26 @@
               </a>
             </div>
           </li>
+          <% }); %>
 
-          <li class="questions__item" data-questionid="3">
-            <div class="questions__question">
-              <img src="/images/avatar.svg" alt="Ilustração de uma pessoa" class="question__image">
-              <p class="question__text">O que é Typescript?</p>
-            </div>
-            <div class="questions__actions">
-              <a href="#" class="questions__check actions__wrapper">
-                <img class="actions__icon" src="/images/check.svg" alt="">
-                <span class="actions__text">Marcar como lida</span>
-              </a>
-              <a href="#" class="questions__trash questions__buttonDelete">
-                <img class="actions__icon" src="/images/trash.svg" alt="">
-                <span class="actions__text">Excluir</span>
-              </a>
-            </div>
-          </li>
-
-          <li class="questions__item questions__item--read" data-questionid="1">
+          <% questionsRead.forEach(questionRead => { %>
+          <li class="questions__item questions__item--read" data-questionid="<%= questionRead.id %>">
             <div class="questions__question">
               <img src="/images/avatar.svg" alt="Ilustração de uma pessoa"
                 class="question__image question__image--read">
-              <p class="question__text">O que é Javascript?</p>
+              <p class="question__text"><%= questionRead.questionText %></p>
             </div>
             <div class="questions__actions">
-              <!-- <a href="#" class="questions__check actions__wrapper"> -->
+
+
               <a href="#" class="actions__wrapper">
                 <img class="actions__icon" src="/images/check.svg" alt="">
                 <span class="actions__text">Pergunta lida</span>
               </a>
             </div>
           </li>
+          <% }); %>
+
 
 
         </ul>
