@@ -1,4 +1,4 @@
-# rocket.q
+<h1 align="center"><img src=".github/logo.svg" alt="RocketQ"></h1>
 
 Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.
 
@@ -32,9 +32,7 @@ Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser 
 
 - Neste projeto percebi que preciso melhorar minha organização e separação de códigos.
 
-
 ## Como rodar a aplicação ?
-
 
 ## Autor
 
