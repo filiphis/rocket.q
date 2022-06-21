@@ -22,11 +22,11 @@ Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser 
 
 ## O que aprendi ?
 
-- Criar um banco utilizando o SQLite para persistir os dados ( CRUD ).
-- Utilizar o EJS para mostrar as Views.
-- Utilizar o Express para criar um servidor e as rotas da aplicação.
-- Aprimorei meus conhecimentos na utilização de Fetch para consumir a API criada.
-- Aprimorei meus conhecimentos em HTML,CSS e JS.
+:arrow_right: Criar um banco utilizando o SQLite para persistir os dados ( CRUD ).
+:arrow_right: Utilizar o EJS para mostrar as Views.
+:arrow_right: Utilizar o Express para criar um servidor e as rotas da aplicação.
+:arrow_right: Aprimorei meus conhecimentos na utilização de Fetch para consumir a API criada.
+:arrow_right: Aprimorei meus conhecimentos em HTML,CSS e JS.
 
 ## O que preciso melhorar ?
 
@@ -38,7 +38,7 @@ Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser 
 ### Clone o repositório
 $ git clone https://github.com/filiphis/rocket.q.git
 
-### Acesse o repositório criado
+### Acesse a pasta criada
 $ cd rocket.q
 
 ### Instale as dependências
