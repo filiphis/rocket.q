@@ -28,6 +28,7 @@
   align-items: center;
   background-color: var(--blue);
   color: var(--white);
+
 }
 
 .createRoom__image {
@@ -146,4 +147,33 @@
 
 .actions__text {
   color: var(--grey-dark);
+}
+
+.noQuestions {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.noQuestions__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  max-width: 29rem;
+}
+
+.noQuestions h2 {
+  font-size: 1.8rem;
+}
+
+.noQuestions p {
+  color: var(--grey-blue);
+}
+
+.noQuestions img {
+  width: 15rem;
+  margin-bottom: 1.2rem;
 }

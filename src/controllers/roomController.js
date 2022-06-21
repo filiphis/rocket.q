@@ -47,8 +47,29 @@ module.exports = {
       `SELECT * FROM questions WHERE isRead = 1 AND roomid = ${roomid}`
     );
 
+    let haveQuestions = true;
+
+    if (questionsRead.length == 0 && questions.length == 0) {
+      haveQuestions = false;
+    }
+
     await db.close();
 
-    res.render("room", { roomid, questions, questionsRead });
+    res.render("room", { roomid, questions, questionsRead, haveQuestions });
+  },
+
+  enterRoom(req, res) {
+    const roomid = req.body.roomid;
+
+    res.redirect(`/room/${roomid}`);
+  },
+
+  async list(req, res) {
+    const db = await Database();
+    const rooms = await db.all(`SELECT id FROM rooms`);
+    console.log(rooms);
+
+    res.send(rooms);
+    await db.close();
   },
 };

@@ -120,3 +120,15 @@
 .rocketq__newRoom {
   margin-top: 5rem;
 }
+
+
+
+.roomMessagemError {
+  display: none;
+}
+.roomMessagemError.Error {
+  color: var(--red);
+  margin-bottom: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+}

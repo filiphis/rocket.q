@@ -30,10 +30,10 @@
           <span data-roomid="<%= parseInt(roomid) %>">#<%= parseInt(roomid) %></span>
           <img class="copyRoomCode__image" src="/images/copy.svg" alt="Copiar codigo">
         </a>
-        <button class="buttons__createRoom">
+        <a href="/create-room" class="buttons__createRoom rocketq__button">
           <img class="createRoom__image" src="/images/users-white.svg" alt="Ilustração dois usuarios">
           Criar sala
-        </button>
+        </a>
       </div>
     </header>
     <main class="roomMainContent">
@@ -59,6 +59,11 @@
       <section class="questions">
         <h2 class="sr-only">Perguntas enviadas</h2>
         <ul class="questions__list">
+
+          <% if (!haveQuestions) { %>
+          <%- include('./parts/no-questions.ejs') %>
+          <% } %>
+
           <% questions.forEach(question => { %>
           <li class="questions__item" id="questionid" data-questionid="<%= question.id %>">
             <div class="questions__question">
@@ -76,9 +81,12 @@
               </a>
             </div>
           </li>
+
+
           <% }); %>
 
           <% questionsRead.forEach(questionRead => { %>
+
           <li class="questions__item questions__item--read" data-questionid="<%= questionRead.id %>">
             <div class="questions__question">
               <img src="/images/avatar.svg" alt="Ilustração de uma pessoa"
@@ -94,6 +102,7 @@
               </a>
             </div>
           </li>
+
           <% }); %>
 
 
