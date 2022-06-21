@@ -1,5 +1,8 @@
 <h1 align="center" style="background-color: white;"><img src=".github/logo.svg" alt="RocketQ"></h1>
 
+<p align="center">
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/13370451/174902391-e1433789-538c-45d1-9037-0d9e06cec9de.gif)
+</p>
 <p align="center">Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.</p>
 
 <!-- Visualize as soluções em: https://portfolio-filiphis.vercel.app/ -->
