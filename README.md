@@ -11,10 +11,30 @@ Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser 
 ## O que foi utilizado ?
 
 - HTML
-- CSS (Grid, Flexbox)
+- CSS
+  - Grid
+  - Flexbox
 - JavaScript
+- Node
+- Express
+- EJS
+- SQLite
 
 ## O que aprendi ?
+
+- Criar um banco utilizando o SQLite para persistir os dados ( CRUD ).
+- Utilizar o EJS para mostrar as Views.
+- Utilizar o Express para criar um servidor e as rotas da aplicação.
+- Aprimorei meus conhecimentos na utilização de Fetch para consumir a API criada.
+- Aprimorei meus conhecimentos em HTML,CSS e JS.
+
+## O que preciso melhorar ?
+
+- Neste projeto percebi que preciso melhorar minha organização e separação de códigos.
+
+
+## Como rodar a aplicação ?
+
 
 ## Autor
 
