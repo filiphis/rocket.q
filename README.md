@@ -1,6 +1,6 @@
 <h1 align="center" style="background-color: white;"><img src=".github/logo.svg" alt="RocketQ"></h1>
 
-Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.
+<p align="center">Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.</p>
 
 <!-- Visualize as soluções em: https://portfolio-filiphis.vercel.app/ -->
 
