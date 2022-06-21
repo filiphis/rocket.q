@@ -22,11 +22,11 @@ Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser 
 
 ## O que aprendi ?
 
-:arrow_right: Criar um banco utilizando o SQLite para persistir os dados ( CRUD ).
-:arrow_right: Utilizar o EJS para mostrar as Views.
-:arrow_right: Utilizar o Express para criar um servidor e as rotas da aplicação.
-:arrow_right: Aprimorei meus conhecimentos na utilização de Fetch para consumir a API criada.
-:arrow_right: Aprimorei meus conhecimentos em HTML,CSS e JS.
+<p>:arrow_right: Criar um banco utilizando o SQLite para persistir os dados ( CRUD ).</p>
+<p>:arrow_right: Utilizar o EJS para mostrar as Views.</p>
+<p>:arrow_right: Utilizar o Express para criar um servidor e as rotas da aplicação.</p>
+<p>:arrow_right: Aprimorei meus conhecimentos na utilização de Fetch para consumir a API criada.</p>
+<p>:arrow_right: Aprimorei meus conhecimentos em HTML,CSS e JS.</p>
 
 ## O que preciso melhorar ?
 
