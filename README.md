@@ -34,6 +34,27 @@ Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser 
 
 ## Como rodar a aplicação ?
 
+```
+### Clone o repositório
+$ git clone https://github.com/filiphis/rocket.q.git
+
+### Acesse o repositório criado
+$ cd rocket.q
+
+### Instale as dependências
+$ npm install
+
+### Gere o banco SQLite
+$ npm run init-db
+
+### Inicie o servidor
+$ npm start
+```
+
+<p>
+Pronto! Agora é só acessar a aplicação atraves do link: <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>
+</p>
+
 ## Autor
 
 :star: By **_Luiz Silveira_** :star:
