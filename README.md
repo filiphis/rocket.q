@@ -2,7 +2,7 @@
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/13370451/174902862-34808dd0-5086-4385-90e1-f825ecfb6621.gif)
 
-<p align="center">Projeto desenvolvido durante a Next Level Week 7 da Rocketseat.</p>
+<p align="center">Projeto desenvolvido durante a Next Level Week 6 da Rocketseat.</p>
 
 <!-- Visualize as soluções em: https://portfolio-filiphis.vercel.app/ -->
 
