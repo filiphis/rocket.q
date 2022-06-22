@@ -10,7 +10,7 @@
 
 <p>Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser utilizado, por exemplo, para responder e organizar questões feitas em uma live. Projeto foi desenvolvido utilizando o conteudo da Next Level Week 7 da Rocketseat.</p>
 
-##### Quais as funcionalidades da aplicação ?
+## Quais as funcionalidades da aplicação ?
 
 **Criar uma sala**
 
@@ -21,8 +21,7 @@ Usuarios em uma sala podem **enviar perguntas**
 O criador da sala pode **marcar perguntas como lida**
 
 O criador da sala pode **excluir perguntas**
-
-<p>**excluir perguntas**</p>
+**excluir perguntas**
 
 ## O que foi utilizado ?
 
