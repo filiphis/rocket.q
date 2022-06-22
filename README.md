@@ -10,13 +10,12 @@
 
 <p>Organize e responsa as questões feitas pelos visitantes. Este projeto pode ser utilizado, por exemplo, para responder e organizar questões feitas em uma live. Projeto foi desenvolvido utilizando o conteudo da Next Level Week 7 da Rocketseat.</p>
 
-#### Quais as funcionalidades da aplicação ?
+##### Quais as funcionalidades da aplicação ?
 
-<p>:ok_hand: **Entrar em uma sala**</p>
-<p>:ok_hand: **Entrar em uma sala**</p>
-<p>:ok_hand: Usuarios em uma sala podem **enviar perguntas**</p>
-<p>:ok_hand: O criador da sala pode **marcar perguntas como lida**</p>
-<p>:ok_hand: O criador da sala pode **excluir perguntas**</p>
+- :ok_hand: **Entrar em uma sala**
+- :ok_hand: Usuarios em uma sala podem **enviar perguntas**
+- :ok_hand: O criador da sala pode **marcar perguntas como lida**
+- :ok_hand: O criador da sala pode **excluir perguntas**
 
 ## O que foi utilizado ?
 
