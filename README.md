@@ -22,6 +22,8 @@
 
 :white_check_mark: O criador da sala pode **excluir perguntas**
 
+! text in orange
+
 ## O que foi utilizado ?
 
 - HTML
