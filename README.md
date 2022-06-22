@@ -12,10 +12,17 @@
 
 ##### Quais as funcionalidades da aplicação ?
 
-- :ok_hand: **Entrar em uma sala**
-- :ok_hand: Usuarios em uma sala podem **enviar perguntas**
-- :ok_hand: O criador da sala pode **marcar perguntas como lida**
-- :ok_hand: O criador da sala pode **excluir perguntas**
+**Criar uma sala**
+
+**Entrar em uma sala**
+
+Usuarios em uma sala podem **enviar perguntas**
+
+O criador da sala pode **marcar perguntas como lida**
+
+O criador da sala pode **excluir perguntas**
+
+<p>**excluir perguntas**</p>
 
 ## O que foi utilizado ?
 
