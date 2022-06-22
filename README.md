@@ -13,9 +13,13 @@
 ## Quais as funcionalidades da aplicação ?
 
 **Criar uma sala**
+
 **Entrar em uma sala**
+
 Usuarios em uma sala podem **enviar perguntas**
+
 O criador da sala pode **marcar perguntas como lida**
+
 O criador da sala pode **excluir perguntas**
 
 ## O que foi utilizado ?
