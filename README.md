@@ -1,6 +1,4 @@
-<style>
-  strong{color:#E67E22!important;}
-</style>
+<style>strong{color:#E67E22!important;}</style>
 
 <h1 align="center" style="background-color: white;"><img src=".github/logo.svg" alt="RocketQ"></h1>
 
